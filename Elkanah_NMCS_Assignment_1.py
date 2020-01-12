@@ -36,3 +36,4 @@ plt.title("Exact and Approximate solutions for the conservation of energy\n")
 plt.legend()
 plt.grid()
 plt.savefig('graph.png')
+#
