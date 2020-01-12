@@ -8,6 +8,7 @@ Created on Wed Jan  8 08:42:56 2020
 #[s0+v0*t+0.5*a0*t**2+a0*t*(t-t1)]
 import numpy as np
 import matplotlib.pyplot as plt
+#Below are the constants needed in this problem
 rho=1.2e-2;h=8.3;c=1000;a=0.3;S0=1367;epsilon=0.6;sigma=5.67e-8#costants given
 '''Exact Solution'''
 Eq_T=(((1-a)*S0)/(4*epsilon*sigma))**(1/4)#Equilibrium temperature
